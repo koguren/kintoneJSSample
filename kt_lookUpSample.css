@@ -1,0 +1,50 @@
+.lookUpModal{
+    display: none;
+    position: fixed;
+    background: rgba(0,0,0,.3);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    /*height: 100vh;*/
+    height: 100%;
+    z-index: 1200;
+    overflow: scroll;
+    padding: 4px;
+  }
+  .lookUpModal.on{
+    display: block;
+  }
+  .lookUpModalHeader{
+    /*position: fixed;*/
+    background: #fff;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    margin: 8px 8px 0px 8px;
+  }
+  .lookUpModalTable{
+    /*position: fixed;*/
+    background: #fff;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    margin: 0px 8px 8px 8px;
+    width: 97%
+  }
+  .lookUpModalTable th,
+  .lookUpModalTable td{
+    border: 1px solid #000;
+    padding: 10px;
+  }
+  .lookUpButton{
+    padding: 5px;
+  }
+
+  .lookUpButtonSpace{
+    position: absolute;
+    bottom: 0;
+  }
+
+  .margin3{
+    margin: 3px;
+  }
